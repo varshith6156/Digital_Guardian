@@ -1,0 +1,155 @@
+{
+  "message_detector": [
+    {
+      "id": "msg_crit_1",
+      "title": "Bank KYC Suspension Threat with Suspicious Link",
+      "risk_expected": "CRITICAL",
+      "content": "Dear Customer, Your SBI Bank account has been blocked today due to pending KYC verification. Please click https://bit.ly/sbi-kyc-update to verify your Netbanking password and share OTP within 15 minutes to avoid permanent deactivation."
+    },
+    {
+      "id": "msg_crit_2",
+      "title": "Lottery Jackpot Demanding Advance Fee",
+      "risk_expected": "CRITICAL",
+      "content": "CONGRATULATIONS! You have won $1,000,000 in the International Mega Lucky Draw 2026. To claim your cash prize, you must pay a refundable processing fee of $250 immediately to our customs officer."
+    },
+    {
+      "id": "msg_high_1",
+      "title": "Imminent Electricity Disconnection Threat",
+      "risk_expected": "HIGH",
+      "content": "Urgent Alert: Your electricity power will be disconnected tonight at 9:30 PM because your previous month bill was not updated. Immediately call electricity officer at 9876543210 to avoid legal action."
+    },
+    {
+      "id": "msg_high_2",
+      "title": "Courier Customs Parcel Notification",
+      "risk_expected": "HIGH",
+      "content": "FedEx Delivery Update: Your incoming parcel from overseas is detained at customs. Pay customs fee of Rs 1,450 to release shipment. Visit http://fedex-clearance-portal.xyz/track to pay immediately."
+    },
+    {
+      "id": "msg_med_1",
+      "title": "Ambiguous Security Notice",
+      "risk_expected": "MEDIUM",
+      "content": "Security Alert: A new login was detected on your account from an unrecognized browser in London. If this was not you, please secure your account immediately or contact support."
+    },
+    {
+      "id": "msg_low_1",
+      "title": "Legitimate Bank Transaction Alert",
+      "risk_expected": "LOW",
+      "content": "Your AC ending with XX4821 has been debited by USD 42.50 at Grocery Mart on 12-Nov-2026. Available balance in account is USD 1,240.20. For dispute call 1800-000-000."
+    }
+  ],
+  "url_analyzer": [
+    {
+      "id": "url_crit_1",
+      "title": "Direct IP Address with Sensitive Path",
+      "risk_expected": "CRITICAL",
+      "content": "http://192.168.1.105:8080/secure/banking/login/verify"
+    },
+    {
+      "id": "url_crit_2",
+      "title": "Typosquatting and Brand Spoofing (.xyz)",
+      "risk_expected": "CRITICAL",
+      "content": "https://secure-login.paypa1-account-verification.xyz/signin"
+    },
+    {
+      "id": "url_crit_3",
+      "title": "Authority Spoofing with @ Symbol",
+      "risk_expected": "CRITICAL",
+      "content": "https://www.paypal.com@phishing-update-node.top/account/verify"
+    },
+    {
+      "id": "url_high_1",
+      "title": "Excessive Subdomains Mimicking Bank",
+      "risk_expected": "HIGH",
+      "content": "http://chase.online.banking.account.update-portal.club/signin"
+    },
+    {
+      "id": "url_med_1",
+      "title": "Known URL Shortener Redirection",
+      "risk_expected": "MEDIUM",
+      "content": "https://bit.ly/3xY9qzM"
+    },
+    {
+      "id": "url_low_1",
+      "title": "Legitimate Corporate HTTPS Portal",
+      "risk_expected": "LOW",
+      "content": "https://www.github.com/features/actions"
+    }
+  ],
+  "job_detector": [
+    {
+      "id": "job_crit_1",
+      "title": "Direct Hiring Demanding Laptop Security Deposit",
+      "risk_expected": "CRITICAL",
+      "content": "Congratulations! Based on your resume, you are directly selected for the Software Engineer position at Google without interview. A refundable security deposit of Rs 2,500 is required for your company laptop before joining. Contact hr-google-recruiter@gmail.com."
+    },
+    {
+      "id": "job_crit_2",
+      "title": "Data Entry Video Liking with Registration Fee",
+      "risk_expected": "CRITICAL",
+      "content": "Work from home part-time opportunity: Simple typing and like YouTube videos to earn $500 daily. Guaranteed work from home job for all freshers. Pay registration fee of $50 to activate your job portal account today."
+    },
+    {
+      "id": "job_high_1",
+      "title": "MNC Impersonator Requesting Banking Credentials",
+      "risk_expected": "HIGH",
+      "content": "Dear Candidate, Microsoft Recruitment Team is offering an immediate Data Analyst position. Before releasing your offer letter, please share bank account details, cancelled cheque photo, and ATM PIN for salary credit setup."
+    },
+    {
+      "id": "job_med_1",
+      "title": "Telegram-Exclusive High-Paying Recruitment",
+      "risk_expected": "MEDIUM",
+      "content": "Urgent hiring for freshers! Earn Rs 4000 daily for easy online tasks. Do not call, message on Telegram @TechRecruitOfficial to claim your slot. Limited seats left."
+    },
+    {
+      "id": "job_med_2",
+      "title": "High-Pressure 2-Hour Offer Acceptance Window",
+      "risk_expected": "MEDIUM",
+      "content": "Dear Applicant, You have cleared our preliminary review. Your offer letter is ready but must accept within 2 hours or the seat will be cancelled and allocated to next candidate."
+    },
+    {
+      "id": "job_low_1",
+      "title": "Legitimate Enterprise Engineering Offer",
+      "risk_expected": "LOW",
+      "content": "Dear Jordan, Following up on your technical interviews with our engineering team last week, we are pleased to extend an offer for the Full Stack Developer role at Acme Systems. Please review the compensation breakdown on our official workday portal at careers.acmesystems.com."
+    }
+  ],
+  "payment_detector": [
+    {
+      "id": "pay_crit_1",
+      "title": "UPI Collect Request to 'Receive' Money",
+      "risk_expected": "CRITICAL",
+      "content": "I have sent you a collect request of Rs 4,500 on PhonePe for the camera you posted on OLX. Please accept collect request in PhonePe and enter your UPI PIN to receive the money into your bank account immediately."
+    },
+    {
+      "id": "pay_crit_2",
+      "title": "QR Code Scan to Receive Refund",
+      "risk_expected": "CRITICAL",
+      "content": "Dear Customer, Your refund of Rs 1,999 has been approved by Paytm Support. Please scan this QR code and enter PIN to receive money in your wallet immediately."
+    },
+    {
+      "id": "pay_crit_3",
+      "title": "Remote Access App Request for Refund",
+      "risk_expected": "CRITICAL",
+      "content": "Hello, I am calling from Google Pay Fraud Department. To reverse your failed transaction of Rs 8,000, please install AnyDesk on your mobile phone and share the 9-digit code with our executive."
+    },
+    {
+      "id": "pay_high_1",
+      "title": "Accidental Overpayment Claim Scam",
+      "risk_expected": "HIGH",
+      "content": "Hi, I transferred $450 by mistake to your UPI ID instead of my landlord. Please check and send back the money immediately via UPI to my number. It was sent by error."
+    },
+    {
+      "id": "pay_high_2",
+      "title": "Wallet Frozen Urgency Threat",
+      "risk_expected": "HIGH",
+      "content": "Urgent Warning: Your digital wallet will be blocked within 30 minutes due to unpaid merchant charge of Rs 350. Pay immediately or a penalty fine of Rs 5,000 will be debited."
+    },
+    {
+      "id": "pay_low_1",
+      "title": "Legitimate Merchant Payment Receipt",
+      "risk_expected": "LOW",
+      "content": "Payment Successful: You paid $34.50 to Downtown Cafe via Apple Pay on 12-Nov-2026. Transaction Ref #TXN992819. Thank you for your visit!"
+    }
+  ]
+}
+
